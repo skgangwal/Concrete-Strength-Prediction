@@ -62,7 +62,7 @@ Age -- quantitative  -- Day (1~365) -- Input Variable
 
 Concrete Compressive Strength -- quantitative -- MPa -- Output Variable
 
-## Contents
+## Steps for Data Analysis and Model Development
 
 1. Import Libraries
 2. Load Data
