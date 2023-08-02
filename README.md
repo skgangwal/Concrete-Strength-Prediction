@@ -62,27 +62,13 @@ Age -- quantitative  -- Day (1~365) -- Input Variable
 
 Concrete Compressive Strength -- quantitative -- MPa -- Output Variable
 
-## Steps for Data Analysis and Model Development
+## Libraries Used
 
-1. Import Libraries
-2. Load Data
-3. Data Preprocessing and Exploration
-4. Separating Features and Target Label
-5. Train Test Split and Scaling the Data
-6. Model 1 - Support Vector Machine Model (SVR)
-   
-   6a. Define and Fit the Model (baseline model)
-   
-   6b. Evaluation of Base Model
-   
-   6c. Grid Search in Attempt for Better Model
-   
-   6b. Determine the Best Estimator and Evaluate on Test Set
-   
-   6c. Calculate Error Metric (RMSE) and Compare with Baseline Model
-   
-8. Model 2 - Random Forest Regressor
-9. Compare Model 1 and Model 2 Performance and Determine the Best Model
-10. Save the Model as Pickle File
-11. Develop a web app using Dash Library
-12. Deploy the Web App to Heroku
+ - Pandas
+ - Numpy
+ - Matplotlib
+ - Seaborn
+ - Scikit Learn
+ - Joblib
+ - Dash
+ - Plotly
